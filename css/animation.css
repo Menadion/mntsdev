@@ -1,0 +1,21 @@
+/* SIDEBAR */
+.sidebar {
+    width: 72px;
+}
+
+.sidebar-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-label {
+    font-size: 12px;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.sidebar-link:hover .sidebar-label {
+    opacity: 1;
+    transform: translateY(0);
+}
