@@ -18,7 +18,7 @@
 			<div class="Admincontents">
 				<div class="AdminSign_in"><strong>Sign in to</strong></div>
 				<p class="AdminSign_in_continue">D.H Azada Tire Supply Admin Portal</p>
-				<form class="AdminLoginForm">
+				<form class="AdminLoginForm" action="content/pages/homepage.php" method="POST">
 					<label for="Email" class="AdminEmailTitle">Username or Email</label>
 			  		<input type="text" class="AdminEmail" name="Email" required>
 
