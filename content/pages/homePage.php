@@ -1,11 +1,3 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-
-    $email = $_POST['Email'];
-    $password = $_POST['Password'];
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <?php include "../head.php" ?>
