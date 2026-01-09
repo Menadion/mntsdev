@@ -1,5 +1,5 @@
 <div class="p-3 border-bottom d-flex align-items-center">
-<h1 class="m-0">Header</h1>
+<h1 class="m-0 fs-3">Welcome, User</h1>
 
 <!-- PROFILE PIC PLACEHOLDER -->
 <div

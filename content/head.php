@@ -7,8 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    
-    <script src="<?= ROOT_URL ?>javascript/login.js"></script>
+
     <link rel="icon" class="Icon" href="<?= ROOT_URL ?>assets\icon1.png" type="image/png">
 
     <!-- Absolute file path inside array -->
