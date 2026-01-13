@@ -6,7 +6,7 @@
 
     <a href="<?= ROOT_URL ?>content/pages/homePage.php" class="sidebar-link text-decoration-none mb-1 text-center">
         <div class="sb-btn">
-            <div class="sb-icon-stack">
+            <div class="sb-icon-cont">
                 <img src="<?= ROOT_URL ?>/assets/whiteHome.svg" class="sb-icon sb-white">
                 <img src="<?= ROOT_URL ?>/assets/darkHome.png" class="sb-icon sb-dark">
             </div>

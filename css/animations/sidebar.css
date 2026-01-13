@@ -14,7 +14,7 @@
     transition: 0.2s ease;
 }
 
-.sb-icon-stack {
+.sb-icon-cont {
     position: relative;
     width: 28px;
     height: 28px;
@@ -54,6 +54,12 @@
     height: 40px;
     object-fit: contain;
     flex-shrink: 0;
+    transition: border 0.1s ease;
+}
+
+.sidebar-link:hover .sb-prof-icon {
+    border: 2px solid white;
+    border-radius: 100%;
 }
 
 .sb-dark {
