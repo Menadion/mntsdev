@@ -4,10 +4,29 @@
     background-color: #243E36;
 }
 
+.sb-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+
+.sb-icon-stack {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+/* to be removed */
 .sidebar-icon {
     width: 40px;
     height: 40px;
 }
+/*  */
 
 .sidebar-label {
     font-size: 12px;
@@ -22,13 +41,6 @@
 }
 
 /* ICONS */
-.sb-icon-stack {
-    position: relative;
-    width: 28px;
-    height: 28px;
-    margin: 0 auto;
-}
-
 .sb-icon {
     position: absolute;
     inset: 0;
@@ -38,15 +50,8 @@
 }
 
 .sb-prof-icon {
-    width: 42px;
-    height: 42px;
-    object-fit: contain;
-    flex-shrink: 0;
-}
-
-.sb-whome-icon {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
     flex-shrink: 0;
 }
@@ -67,12 +72,3 @@
     background: white;
 }
 
-.sb-btn {
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.2s ease;
-}

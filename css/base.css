@@ -3,3 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hp-body {
+    background-color: #F1F7ED;
+}

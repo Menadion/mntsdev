@@ -1,5 +1,5 @@
 <!-- SUMMARY ROW -->
-<div class="px-4 py-4 bg-light">
+<div class="px-4 py-4">
     <div class="row g-4">
         <div class="col-md-4">
             <div class="summary-card bg-success text-white">
