@@ -35,11 +35,6 @@
     transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
-.sidebar-link:hover .sidebar-label {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 /* ICONS */
 .sb-icon {
     position: absolute;
@@ -66,6 +61,12 @@
     opacity: 0;
 }
 
+/* HOVER */
+.sidebar-link:hover .sidebar-label {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .sidebar-link:hover .sb-white {
     opacity: 0;
 }
@@ -77,4 +78,9 @@
 .sidebar-link:hover .sb-btn {
     background: white;
 }
+
+/* ACTIVE */
+/* .sidebar-link:active .sb-btn {
+    background-color: gainsboro;
+} */
 

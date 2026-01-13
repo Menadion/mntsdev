@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>D.H Azada Tire Supply</title>
 
     <link rel="icon" class="Icon" href="<?= ROOT_URL ?>assets\icon1.png" type="image/png">
 
