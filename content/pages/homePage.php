@@ -6,7 +6,7 @@
             <?php include "../fragments/sidebar.php"  ?>
             <div class="flex-grow-1 d-flex flex-column">
                 <?php
-                    $pageHeader = 'Welcome, User';
+                    $pageHeader = 'HOME';
                     include "../fragments/header.php" 
                 ?>
 
