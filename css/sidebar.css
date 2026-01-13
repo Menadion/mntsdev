@@ -1,6 +1,7 @@
 /* SIDEBAR */
 .sidebar {
     width: 72px;
+    background-color: #243E36;
 }
 
 .sidebar-icon {
@@ -18,4 +19,12 @@
 .sidebar-link:hover .sidebar-label {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* ICONS */
+.prof-icon {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
 }

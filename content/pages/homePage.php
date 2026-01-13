@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include "../head.php" ?>
-    <body class="m-0 min-vh-100">
-        <div class="d-flex min-vh-100">
+    <body class="m-0 vh-100 overflow-hidden">
+        <div class="d-flex h-100">
             <?php include "../fragments/sidebar.php"  ?>
             <div class="flex-grow-1 d-flex flex-column">
                 <?php
                     $pageHeader = 'Welcome, User';
                     include "../fragments/header.php" 
                 ?>
-                <?php include "../fragments/table.php" ?>
+
+                <div class="page-strip px-4 py-3 text-white fw-semibold">
+                    WELCOME, ADMIN
+                </div>
+
+                <div>
+                    <?php include "../fragments/pageSummary.php" ?>
+                </div>
+
+                <div class="flex-grow-1 overflow-auto p-4 bg-light">
+                    <?php include "../fragments/table.php" ?>
+                </div>
             </div>
         </div>
     </body>
