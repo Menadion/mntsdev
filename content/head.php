@@ -19,8 +19,8 @@
 
         $styles = [
             'css/base.css',
-            'css/sidebar.css',
-            'css/loginAnimation.css',
+            'css/animations/sidebar.css',
+            'css/animations/login.css',
             'css/homePage.css',
             'libs/bootstrap/css/bootstrap.min.css'
         ];

@@ -18,7 +18,7 @@
                     <?php include "../fragments/pageSummary.php" ?>
                 </div>
 
-                <div class="flex-grow-1 overflow-auto p-4 bg-light">
+                <div class="flex-grow-1 overflow-auto p-4">
                     <?php include "../fragments/table.php" ?>
                 </div>
             </div>

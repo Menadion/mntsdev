@@ -1,0 +1,78 @@
+/* SIDEBAR */
+.sidebar {
+    width: 72px;
+    background-color: #243E36;
+}
+
+.sidebar-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-label {
+    font-size: 12px;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.sidebar-link:hover .sidebar-label {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ICONS */
+.sb-icon-stack {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.sb-icon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s ease;
+}
+
+.sb-prof-icon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.sb-whome-icon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.sb-dark {
+    opacity: 0;
+}
+
+.sidebar-link:hover .sb-white {
+    opacity: 0;
+}
+
+.sidebar-link:hover .sb-dark {
+    opacity: 1;
+}
+
+.sidebar-link:hover .sb-btn {
+    background: white;
+}
+
+.sb-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}

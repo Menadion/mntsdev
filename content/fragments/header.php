@@ -3,7 +3,7 @@
 
         <!-- LEFT SIDE -->
         <div class="d-flex align-items-center gap-3">
-            <img src="<?= ROOT_URL ?>/assets/home.png" class="home-icon" alt="Home">
+            <img src="<?= ROOT_URL ?>/assets/darkHome.png" class="home-icon" alt="Home">
             <span class="fw-semibold fs-5 text-uppercase">HOME</span>
         </div>
 
