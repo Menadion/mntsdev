@@ -13,6 +13,10 @@
                 <div class="page-strip px-4 py-3 text-white fw-semibold">
                     WELCOME, ADMIN
                 </div>
+
+                <div class="profile container my-5">
+                    <?php include "../fragments/profile.php" ?>
+                </div>
             </div>
         </div>
     </body>

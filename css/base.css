@@ -7,6 +7,10 @@
 .hp-body {
     background-color: #F1F7ED;
 }
+
+.profile {
+    background-color: white;
+}
 /* SIDEBAR */
 .sidebar {
     width: 72px;
