@@ -1,7 +1,16 @@
-<?php 
+<?php
     define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'] . '/mntsdev/');
     define('ROOT_URL', '/mntsdev/');
     $currentPage = basename($_SERVER['PHP_SELF']);
+
+    $headerIcon = [
+        ROOT_URL . "/assets/darkProfile.svg",
+        ROOT_URL . "/assets/darkHome.svg",
+        ROOT_URL . "/assets/darkPOS.svg",
+        ROOT_URL . "/assets/darkinv.svg",
+        ROOT_URL . "/assets/darkTrans.svg",
+        ROOT_URL . "/assets/darkEmp.svg"
+    ];
 ?>
 
 <head>

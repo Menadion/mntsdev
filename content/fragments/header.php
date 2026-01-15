@@ -3,7 +3,7 @@
 
         <!-- LEFT SIDE -->
         <div class="d-flex align-items-center gap-3">
-            <img src="<?= ROOT_URL ?>/assets/darkHome.png" class="home-icon" alt="Home">
+            <img src=" <?= $headerIcon[$icon] ?>" class="header-icon" alt="Home">
             <span class="fw-semibold fs-5 text-uppercase"><?= htmlspecialchars($pageHeader ?? 'Welcome') ?></span>
         </div>
 

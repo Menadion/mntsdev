@@ -6,6 +6,7 @@
             <?php include "../fragments/sidebar.php"  ?>
             <div class="flex-grow-1 d-flex flex-column">
                 <?php
+                    $icon = 0;
                     $pageHeader = 'PROFILE';
                     include "../fragments/header.php" 
                 ?>
