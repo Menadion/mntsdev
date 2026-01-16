@@ -8,9 +8,20 @@
     background-color: #F1F7ED;
 }
 
-.profile {
+.profile-container {
     background-color: white;
 }
+
+.prof-btn {
+    cursor: pointer;
+    user-select: none;
+
+    transition:
+        transform 0.12s ease,
+        box-shadow 0.12s ease,
+        filter 0.12s ease;
+}
+
 /* SIDEBAR */
 .sidebar {
     width: 72px;

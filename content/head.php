@@ -31,6 +31,7 @@
             'css/base.css',
             'css/animations/sidebar.css',
             'css/animations/login.css',
+            'css/animations/profile.css',
             'css/homePage.css',
             'libs/bootstrap/css/bootstrap.min.css'
         ];

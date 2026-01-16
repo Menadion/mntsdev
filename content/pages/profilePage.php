@@ -15,10 +15,12 @@
                     WELCOME, ADMIN
                 </div>
 
-                <div class="profile container my-5">
+                <div class="container my-5">
                     <?php include "../fragments/profile.php" ?>
                 </div>
             </div>
         </div>
     </body>
 </html>
+
+<script src="<?= ROOT_URL ?>javascript/testProfile.js"></script>
