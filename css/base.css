@@ -12,6 +12,36 @@
     background-color: white;
 }
 
+.profile-container .row {
+    height: 44px;
+    align-items: center;
+}
+.profile-container > .col-4,
+.profile-container > .col-8 {
+    min-height: 58vh;
+}
+
+.profile-photo-wrapper {
+    border: 1px solid black;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f1f3f5; /* fallback if image fails */
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* IMPORTANT */
+}
+
+
 .prof-btn {
     cursor: pointer;
     user-select: none;
@@ -21,6 +51,30 @@
         box-shadow 0.12s ease,
         filter 0.12s ease;
 }
+
+.profile-container .edit-field {
+    border: none !important;
+    background-color: #f8f9fa;
+    box-shadow: none;
+    padding-left: 0.5rem;
+}
+
+/* Match text alignment for right-aligned fields */
+.profile-container .col-7 .edit-field {
+    text-align: right;
+}
+
+/* Textarea alignment */
+.profile-container textarea.edit-field {
+    text-align: left;
+    resize: none;
+}
+
+.profile-container .edit-field:focus {
+    outline: none;
+    background-color: #f1f3f5;
+}
+
 
 /* SIDEBAR */
 .sidebar {
